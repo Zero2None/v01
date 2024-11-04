@@ -8,13 +8,11 @@
 int main()
 {
 	int a = 0;
-	//double b = 0.0;
-	std::cin >> a;
-	//std::cout << std::endl;
 
+	std::cin >> a;
+	
 	std::cout << vsite::oop::v1::to_hex(a) << std::endl;
 		
 	vsite::oop::v1::mult_table(a, std::cout);
 
-	return 0;
-}
+	}

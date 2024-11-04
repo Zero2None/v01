@@ -1,6 +1,5 @@
 #include "app.h"
 #include <format>
-#include <iomanip>
 
 namespace vsite::oop::v1
 {
@@ -34,12 +33,12 @@ namespace vsite::oop::v1
 
                 else if (i == 0) {
 
-                    out << std::setw(4) << k;
+                    out << std::format("{:4}",k);
                 }
 
                 else if (k > 0) {
 
-                    out << std::setw(4) << i * k;
+                    out << std::format("{:4}", i * k);
                 }
             }
             out << "\n";
