@@ -44,7 +44,7 @@ namespace vsite::oop::v1
             out << "\n";
         }
     };
-}
+} 
 
  // namespace
 
